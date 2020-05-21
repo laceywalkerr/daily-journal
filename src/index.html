@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Daily Journal</h1>
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="journal.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <label for="journalDate">Date of entry</label>
+            <input type="date" name="journalDate" id="journalDate">
+        </fieldset>
+        <fieldset>
+            <label for="conceptsCovered">Concepts Covered</label>
+            <input type="concept" name="conceptsCovered" id="conceptsCovered">
+        </fieldset>
+        <fieldset>
+            <label for="journalEntry">Journal Entry</label>
+            <textarea type="textArea" name="journalEntry" id="journalEntry"></textarea>
+        </fieldset>
+        <fieldset>
+            <label for="mood">Mood of the Moment:</label>
+                <select name="mood" id="mood">
+                <option value="Optimistic">Optimistic</option>
+                <option value="Realistic">Realistic</option>
+                <option value="Pessimistic">Pessimistic</option>
+                <option value="Turbulent">Turbulent</option>
+                <option value="Hungry">Hungry</option>
+                <option value="Focused">Focused</option>
+                <option value="Tired">Tired</option>
+                <option value="Awake">Awake</option>
+                <option value="Accomplished">Accomplished</option>
+                </select>
+        </fieldset>
+      
+            <form action="/action_page.php">
+                <input type="submit" value="Submit">
+              </form> 
+       
+    
+</body>
+</html>

@@ -27,7 +27,11 @@ const makeJournalEntryComponent = (journalEntry) => {
     `
 }
 
+/*
+    Purpose: To render all journal entries to the DOM
 
+    Arguments: entries (array of objects)
+*/
 const renderJournalEntries = (entries) => {
 
 }

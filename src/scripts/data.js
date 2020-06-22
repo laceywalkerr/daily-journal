@@ -1,3 +1,12 @@
+const API = {
+    getJournalEntry () {
+        return fetch("http://localhost:3000/entries")
+            .then(response => response.json())
+    }
+}
+
+
+
 const journalEntry = [
     {
     title: "array methods",

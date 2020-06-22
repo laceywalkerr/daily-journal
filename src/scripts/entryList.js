@@ -3,9 +3,9 @@
 
     Arguments: entries (array of objects)
 */
-const renderJournalEntries = (entries) => {
+const renderJournalEntry = (entries) => {
 
 }
 
 // Invoke the render function
-renderJournalEntries(journalEntry)
+renderJournalEntry(journalEntry)

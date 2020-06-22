@@ -1,11 +1,21 @@
-const journalEntry [
+const journalEntry = [
         {
-        title: "title",
-        date: "date",
-        mood: "mood",
-        entry: "idk"
+        title: "array methods",
+        date: "06-22-20",
+        mood: "tired",
+        entry: "trying to learn about array methods still"
+    },
+
+    {
+        title: "array methods",
+        date: "06-22-20",
+        mood: "tired",
+        entry: "trying to learn about array methods still"
     }
 ]
+
+
+
 
 /*
     Purpose: To create, and return, a string template that
@@ -27,6 +37,9 @@ const makeJournalEntryComponent = (journalEntry) => {
     `
 }
 
+
+
+
 /*
     Purpose: To render all journal entries to the DOM
 
@@ -37,6 +50,4 @@ const renderJournalEntries = (entries) => {
 }
 
 // Invoke the render function
-renderJournalEntries(journalEntries)
-
-
+renderJournalEntries(journalEntry)
